@@ -14,17 +14,21 @@ Each algorithm is implemented in its own self-contained project, including:
 
 ## 📦 Implemented Algorithms
 
-| Algorithm         | Description                                           | Project Folder              |
-| ----------------- | ----------------------------------------------------- | --------------------------- |
-| Round Robin       | Distributes requests in a fixed circular sequence     | `RoundRobinBalancer/`       |
-| Least Connections | Chooses the server with the fewest active connections | `LeastConnectionsBalancer/` |
+| Algorithm             | Description                                                                 | Project Folder              |
+| --------------------- | --------------------------------------------------------------------------- | --------------------------- |
+| **Round Robin**       | Distributes incoming requests evenly in a circular sequence across servers. | `RoundRobinBalancer/`       |
+| **Least Connections** | Sends each new request to the server with the fewest active connections.    | `LeastConnectionsBalancer/` |
+| **IP Hash**           | Maps each client IP to a specific server using a consistent hash function.  | `IpHashBalancer/`           |
 
-More algorithms coming soon:
+---
 
-- [ ] IP Hash
-- [ ] Random
-- [ ] Least Response Time
-- [ ] Weighted Round Robin
+## 🧪 Upcoming Algorithms
+
+| Algorithm                | Description                                                              |
+| ------------------------ | ------------------------------------------------------------------------ |
+| **Random**               | Selects a server randomly for each incoming request.                     |
+| **Least Response Time**  | Chooses the server with the lowest average response time.                |
+| **Weighted Round Robin** | Like Round Robin, but servers with higher weights receive more requests. |
 
 ---
 
