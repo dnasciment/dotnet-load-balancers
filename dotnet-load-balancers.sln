@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeastConnectionBalancer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPHashBalancer", "IPHashBalancer\IPHashBalancer.csproj", "{FA34CAD0-A056-4B96-A556-9B30AA1DAEC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomBalancer", "RandomBalancer\RandomBalancer.csproj", "{69C038FB-5F8E-4D80-BDE5-800061722968}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,18 @@ Global
 		{FA34CAD0-A056-4B96-A556-9B30AA1DAEC0}.Release|x64.Build.0 = Release|Any CPU
 		{FA34CAD0-A056-4B96-A556-9B30AA1DAEC0}.Release|x86.ActiveCfg = Release|Any CPU
 		{FA34CAD0-A056-4B96-A556-9B30AA1DAEC0}.Release|x86.Build.0 = Release|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Debug|x64.Build.0 = Debug|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Debug|x86.Build.0 = Debug|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Release|x64.ActiveCfg = Release|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Release|x64.Build.0 = Release|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Release|x86.ActiveCfg = Release|Any CPU
+		{69C038FB-5F8E-4D80-BDE5-800061722968}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

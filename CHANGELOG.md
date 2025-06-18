@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.3.0] - 2025-06-18
+
+### Added
+
+- `RandomBalancer`:
+  - Random load balancing algorithm
+  - Console demo with 20 requests and final distribution stats
+  - Unit tests verifying correct distribution and randomness over time
+
 ## [0.2.0] - 2025-06-18
 
 ### Added
