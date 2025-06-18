@@ -36,7 +36,7 @@ Each algorithm is implemented in its own self-contained project, including:
 
 Each project is a self-contained .NET 8 console application.
 
-Example (Round Robin):
+Example:
 
 ```bash
 cd RoundRobinBalancer
